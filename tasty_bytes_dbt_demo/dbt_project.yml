@@ -1,8 +1,8 @@
 ## Project
-name: tasty_bytes
+name: snowflake_dbt_projects
 version: "1.0"
 config-version: 2
-profile: tasty_bytes
+profile: snowflake_dbt_projects
 
 ## Sources
 model-paths: [models]
@@ -18,7 +18,7 @@ clean-targets: [target, dbt_modules]
 
 ## Models
 models:
-  tasty_bytes:
+  snowflake_dbt_projects:
     staging:
       +materialized: view
     marts:

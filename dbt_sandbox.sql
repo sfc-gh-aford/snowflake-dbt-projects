@@ -1,0 +1,4 @@
+SHOW TABLES IN DATABASE dbt_db;
+SHOW VIEWS IN DATABASE dbt_db;
+
+SHOW GIT BRANCHES IN snowflake_extensions;
