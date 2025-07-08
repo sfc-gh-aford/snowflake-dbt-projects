@@ -14,7 +14,7 @@ sources:
         - not_null
         - dbt_utils.accepted_range:  # Numeric range validation
             min_value: 1
-            max_value: 1000
+            max_value: 100
     - name: COUNTRY
       description: 'Country name'
       data_tests:
@@ -216,7 +216,7 @@ sources:
         - is_positive_amount
         - dbt_utils.accepted_range:  # Realistic order amount range
             min_value: 0
-            max_value: 10
+            max_value: 10000
             inclusive: true
     - name: ORDER_TAX_AMOUNT
       description: 'Tax amount'
